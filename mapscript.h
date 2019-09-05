@@ -27,7 +27,7 @@ class Parameter
     float m_real; // confirmed
     AsciiString m_string; // confirmed
     Coord3D m_coord; // confirmed
-    BitFlags m_objStatus; // confirmed
+    BitFlags<45> m_objStatus; // confirmed
 };
 
 class Condition

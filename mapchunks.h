@@ -57,3 +57,11 @@ class DataChunkOutput
         unsigned int version; // confirmed
     };
 };
+
+struct DataChunkInfo
+{
+    AsciiString label; // confirmed
+    AsciiString parent_label; // confirmed
+    unsigned __int16 version; // confirmed
+    int data_size; // confirmed
+};
