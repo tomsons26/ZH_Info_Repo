@@ -6,7 +6,7 @@ Purpose of this is to simplify sharing this information and have a centralized d
 These names may or may not be the actual names the various SAGE binaries expose as strings, in a lot of cases they will be best guesses based on behavior. The repo will be added to as we decide to or require to share information.  
 
 Prefered information is from the PC binaries as Mac has some changes so isn't guranteed to line up with the PC version, examples of such cases are if STLPort or std members are involved.  
-Note, structures/classes will exclude any inheritance and vtables, such structs have the offset of the first member sepecified in the comment before the member. 
+Note, structures/classes will exclude base inheritance and vtables, such structs have the offset of the first member sepecified in the comment before the member. 
 Note, types can be the actual types or equal size types, even basic ones like BYTE, WORD, etc.
 Unless stated otherwise with a pack pragma assume the data is aligned to 4 bytes.
 

@@ -35,3 +35,43 @@ class BitFlags
 {
     std::bitset<bits> m_bits;
 };
+
+class FastCriticalSectionClass
+{
+    unsigned int m_flag;
+};
+
+class Vector3
+{
+    float X;
+    float Y;
+    float Z;
+};
+
+class Vector4
+{
+    float X;
+    float Y;
+    float Z;
+    float W;
+};
+
+class Matrix3
+{
+    Vector3 Row[3];
+};
+
+class Matrix3D
+{
+    Vector4 Row[3];
+};
+
+class Matrix4
+{
+    Vector4 Row[4];
+};
+
+class StringClass
+{
+    char *m_buffer;
+}
